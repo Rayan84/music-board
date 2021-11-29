@@ -191,13 +191,23 @@ footer {
   }
 
   .item-container {
+    margin-top: 100px;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .item-container img {
     width: 100%;
+  }
+
+  #comments-button {
+    line-height: 3rem;
+    font-size: 2rem;
   }
 }
